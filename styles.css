@@ -1,0 +1,156 @@
+body{
+    background-image: url(pexels-joseph-fuller-3673812-5578198.jpg);
+    background-repeat: repeat;
+    background-size: 1950px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#gamesboard-container{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#game-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-container{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    background-color: coral;
+    border-radius: .3em;
+    padding: .6em 1em;
+}
+
+
+.game-board{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#title{
+    font-size: large;
+}
+
+
+.block{
+    width: 20px;
+    height: 20px;
+    border: solid 1px black;
+    box-sizing: border-box;
+}
+
+.option-container {
+    width: 300px;
+    height: 50px;
+    margin: 30px 0;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(pexels-pixabay-261403.jpg);
+    background-size: 100px;
+}
+
+.destroyer{
+    background-color: brown;
+}
+
+.destroyer-preview{
+    width: 20px;
+    height: 10px;
+    margin: 3px;
+}
+
+.submarine{
+    background-color: green;
+}
+
+.submarine-preview{
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+}
+
+.cruiser{
+    background-color: purple;
+}
+
+.cruiser-preview{
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+}
+
+.battleship{
+    background-color: orange;
+}
+
+.battleship-preview{
+    width: 40px;
+    height: 10px;
+    margin: 3px;
+}
+
+.carrier{
+    background-color: blue;
+}
+
+.carrier-preview{
+    width: 50px;
+    height: 10px;
+    margin: 3px;
+}
+
+.hover {
+    background-color: grey;
+}
+
+#computer .destroyer,
+#computer .submarine,
+#computer .cruiser,
+#computer .battleship,
+#computer .carrier {
+    background-color: #0cde29;
+}
+
+
+.boom {
+    background-color: red !important;
+}
+
+.empty{
+    background-color: white !important;
+}
+
